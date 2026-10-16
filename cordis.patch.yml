@@ -1,0 +1,8 @@
+# dsh-custom-welcome bundle patch
+#
+# 通过 `dsh plugin --profile web add <本包>` 安装后，dsh 会把本包追加到
+# profile 的 dsh.profile.bundles；profile 启动时合并本层 patch，插入插件行。
+# 条目 id「custom-welcome」同时也是设置命名空间（volatile 配置字段所属）。
+- insert:
+    - id: custom-welcome
+      name: 'dsh-custom-welcome'

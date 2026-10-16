@@ -1,6 +1,0 @@
-{
-  "name": "custom-welcome",
-  "version": "0.0.1",
-  "description": "替换DSH新会话首页欢迎标题与副标题",
-  "client": "./client.js"
-}
