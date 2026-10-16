@@ -1,7 +1,7 @@
 {
   "name": "dsh-custom-welcome",
-  "version": "0.1.0",
-  "description": "Replace the DSH new-session homepage welcome text, with a customization page in Settings.",
+  "version": "0.2.0",
+  "description": "Replace the DSH new-session homepage welcome text and whale icon, with a customization page in Settings.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
